@@ -7,7 +7,7 @@ public class ejercicio_05 {
         int mejorEstudiante = 0, peorEstudiante = 0;
 
         for (int i = 0; i < notasEst.length; i++) {
-            notasEst[i] = (double) (Math.random() * (10 - 0 + 1) + 0);
+            notasEst[i] = (double) (Math.random() * (9 - 0 + 1) + 0);
             sumaNotas += notasEst[i];
         }
 
